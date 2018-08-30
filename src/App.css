@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #f6f6f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.App-title {
+	background-color: #222;
+	padding: 20px;
+	color: white;
+	width: 100%;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+.App-intro {
+	font-size: large;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.App-product {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.App-product td,
+.App-product th {
+	border: 0px solid #ddd;
+	padding: 8px;
+	min-width: 80px;
+}
+tr {
+	border: 1px solid #ddd;
+}
+
+.App-product tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.App-product tr:hover {
+	background-color: #ddd;
+}
+.App-product th {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: left;
+
+	color: rgb(9, 75, 105);
+}
+.App-btn {
+	margin: 10px;
+	height: 40px;
+	line-height: 0px;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 100px;
+	padding: 10px;
+	font-size: 1.0rem;
+	font-weight: 400;
+
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+.btn-primary {
+	/*background: rgb(55, 82, 117);*/
+	/*border:2px solid rgb(55, 82, 117);*/
+	color: rgb(55, 82, 117);
+}
+.btn-primary:hover {
+	background: none;
+	border: 2px solid rgb(5, 163, 202);
+	color: rgb(26, 55, 102);
+	text-decoration: none;
+}
+
+.btn-danger {
+	/*background: rgb(119, 15, 8);*/
+	color: rgb(55, 82, 117);
+}
+.btn-danger:hover {
+	background: none;
+	border: 2px solid rgb(207, 26, 13);
+	color: rgb(26, 55, 102);
+	text-decoration: none;
+}
+
+/**
+
+**/
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+	width: 60%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	resize: vertical;
+	margin: 2px;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+
+	border-radius: 0px;
+	cursor: pointer;
+}
+.pull-right {
+	float: right;
+}
+
+.App-container {
+	top: 0;
+	bottom: 0;
+	background-color: #f2f2f2;
+	padding-bottom: 40px;
+
+	border: 1px solid #ccc;
+}
+.App-inside {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
